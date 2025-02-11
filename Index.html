@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/0ef714d9cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            A<span>rgee</span>
+        </a>
+
+       <i class="bx bx-menu" id="menu-icon"></i>
+
+       <nav class="navbar">
+        
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+       </nav>
+
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Argee Linayao</h1>
+            <h2> Junior<span> Software Engineer</span></h2>
+        <div class="btn-group">
+            <a href="Argee-Linayao-Resume.pdf" download class="btn"></i>Download CV</a>
+        </div>
+    </div>
+
+   <div class="home-img"><img src="Background1.png" alt=""></div>
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="Background2.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>As a Junior Software Engineer, I have a strong background in C# and C++, front-end frameworks, and database systems. With hands-on experience in software development, system optimization, and mentoring technical support teams, I excel in creating scalable and efficient solutions. My expertise extends to Software Development, embedded systems, web development, and troubleshooting, ensuring seamless software performance. Passionate about AI, Machine Learning, and problem-solving, I am committed to developing innovative applications that enhance user experience and drive technological advancement.</p>
+            <div class="tabs">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                
+            </div>
+             
+            <div id="Skills" class="tab-content">
+               <div class="container">
+                            <div class="category">
+                                <h2>Programming language</h2>
+                                <div class="icons">
+                                    <div class="icon-container"><i class="fa-solid fa-c" style="color: #007ACC;"></i><i class="fa-brands fa-cplusplus"></i><div class="icon-text">C++</div></div>
+                                    <div class="icon-container"><i class="fa-solid fa-c" style="color: #CC0066;"></i><i class="fa-brands fa-c-sharp"></i><div class="icon-text">C#</div></div>
+                                    <div class="icon-container"><i class="fa-brands fa-python fa-beat" style="color: #FFD43B;"></i><div class="icon-text">Python</div></div>
+                                    <div class="icon-container"><div class="icon-text">FoxPro</div></div>
+                                    <div class="icon-container"><i class="fa-brands fa-java" style="color: #ff3b30;"></i><div class="icon-text">Java</div></div>
+
+                                </div>
+                            </div>
+                            <div class="category">
+                                <h2>Front End</h2>
+                                <div class="icons">
+                                    <div class="icon-container"><i class="fa-brands fa-html5 fa-beat" style="color: #e34c26;"></i><div class="icon-text">HTML</div></div>
+                                    <div class="icon-container"><i class="fa-brands fa-css3-alt fa-beat" style="color: #1572b6;"></i><div class="icon-text">CSS</div></div>
+                                    <div class="icon-container"><i class="fa-brands fa-js fa-beat" style="color: #FFD43B;"></i><div class="icon-text">JavaScript</div></div>
+                                </div>
+                            </div>
+                            <div class="category">
+                                <h2>Database</h2>
+                                <div class="icons">
+                                    <div class="icon-container"><i class="fa-solid fa-database fa-beat" style="color: #003b6f;"></i><div class="icon-text">MS SQL</div></div>
+                                </div>
+                            </div>
+                            <div class="category">
+                                <h2>FrameWorks</h2>
+                                <div class="icons">
+                                    <div class="icon-container"><i class="fa-brands fa-microsoft fa-beat" style="color: #B197FC;"></i><div class="icon-text">.NET</div></div>
+                                    <div class="icon-container"><i class="fa-brands fa-microsoft fa-beat" style="color: #B197FC;"></i><div class="icon-text">ASP.NET</div></div>
+                                    <div class="icon-container"><i class="fa-brands fa-microsoft fa-beat" style="color: #B197FC;"></i><div class="icon-text">ASP.NET Core</div></div>
+                                    <div class="icon-container"><i class="fa-brands fa-microsoft fa-beat" style="color: #B197FC;"></i><div class="icon-text">Windows Forms App (.Net)</div></div>
+                                    <div class="icon-container"><i class="fa-brands fa-microsoft fa-beat" style="color: #B197FC;"></i><div class="icon-text">Windows Forms App (.Net Framework)</div></div>
+                                    <div class="icon-container"><i class="fa-brands fa-react fa-beat" style="color: #61dafb;"></i><div class="icon-text">React.js</div></div>
+                                    <div class="icon-container"><i class="fa-brands fa-bootstrap fa-beat" style="color: #7a11f8;"></i><div class="icon-text">Botstrap</div></div>
+                                    <div class="icon-container"> <i class="fa-brands fa-css fa-beat" style="color: #38bdf8;"></i><div class="icon-text">Tailwind CSS</div></div>
+                                    
+
+                                </div>
+                            </div>
+                            <div class="category">
+                                <h2>Others</h2>
+                                <div class="icons">
+                                    <div class="icon-container"><i class="fa-brands fa-github fa-beat" style="color: #181717;"></i><div class="icon-text">Github</div></div>
+                                    <div class="icon-container"><i class="fa-solid fa-infinity" style="color: #00a3ad;"></i><div class="icon-text">Arduino</div></div>
+                                    <div class="icon-container"><i class="fa-brands fa-figma" style="color: #8a1f98;"></i><div class="icon-text">Figma</div></div>
+                                    <div class="icon-container"><i class="fa-solid fa-a" style="color: #ee2633;"></i><div class="icon-text">Autocad</div></div>
+                                    <div class="icon-container"> <i class="fa-brands fa-android" style="color: #04e707;"></i><div class="icon-text">MIT App Inventor</div></div>
+                                </div>
+                            </div>
+                        </div> 
+            </div>
+            <div id="Education" class="tab-content" style="display: none;">
+                <p>National University-Fairview</p>
+                <small>2020-2024</small>
+                <h1>Awards:</h1>
+                <p>2020 Dean's Lister</p>
+                <p>2021 Dean's Lister</p>
+                <p>2022 Dean's Lister</p>
+                <p>2023 Dean's Lister</p>
+
+               <p>Western Colleges Inc</p>
+                <small>2018-2020</small>
+                <h1>Awards:</h1>
+                <p>2020 Student athelete of the year</p>
+                                    
+                <p>Ternate National High School</p>
+                <small>2014-2018</small>
+
+            </div>
+            <div id="Experience" class="tab-content" style="display: none;">
+                <p>August 2024 - February 2025</p>
+                <p>Junior Software Engineer at Chase Technologies Corporation</p>
+                
+                <p>August 2024 - February 2025</p>
+                <p>Junior Software Engineer at Chase Technologies Corporation</p>
+            </div>
+            
+        </div>
+        
+        
+        
+
+    </section>
+
+    <section class="services" id="services">
+
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-brands fa-figma"style="color: #8a1f98;"></i>
+                    <h4>UI/UX Designer</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere totam tempore necessitatibus numquam neque facilis dolorum perferendis obcaecati, vero reiciendis reprehenderit quae quam. Ipsa, sunt consequuntur. Totam odit porro doloribus!</p>
+
+                </div>
+             </div>
+
+             <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-solid fa-microchip" style="color: #037fe2;"></i>
+                    <h4>Embedded Systems & IoT </h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere totam tempore necessitatibus numquam neque facilis dolorum perferendis obcaecati, vero reiciendis reprehenderit quae quam. Ipsa, sunt consequuntur. Totam odit porro doloribus!</p>
+
+                </div>
+             </div>
+             <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere totam tempore necessitatibus numquam neque facilis dolorum perferendis obcaecati, vero reiciendis reprehenderit quae quam. Ipsa, sunt consequuntur. Totam odit porro doloribus!</p>
+
+                </div>
+             </div>
+             <div class="service-box">
+                <div class="service-info">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h4>Software Development </h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere totam tempore necessitatibus numquam neque facilis dolorum perferendis obcaecati, vero reiciendis reprehenderit quae quam. Ipsa, sunt consequuntur. Totam odit porro doloribus!</p>
+
+                </div>
+             </div>
+
+        </div>
+    </section>
+
+    <section class="project" id="projects">
+
+        <h2 class="heading">Projects</h2>
+        
+        <div class="project-box">
+
+            <div class="project-card">
+                <img src="POS.png" alt="">
+
+                <h3>Point Of Sale</h3>
+                <p>This project involves migrating legacy Point-of-Sale (POS) systems—Parking POS, Food POS, and Win POS—from FoxPro to C# to improve performance, scalability, and maintainability. The transition enhances system efficiency, modernizes the codebase, and ensures compatibility with current technologies.</p>
+                
+                <div class="tech-stack">
+                    <span>Technology Used:</span>
+                    <a href="https://learn.microsoft.com/en-us/sql/sql-server/what-is-sql-server?view=sql-server-ver16" target="_blank"> <div class="tech-icon"><i class="fa-solid fa-database" style="color: #003b6f; font-size: 40px;" ></i></div></a>
+                    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank"> <div class="tech-icon"><i class="fa-solid fa-c" style="color: #5e2c9e; font-size: 40px;"></i></div></a>
+                
+                    <a href="https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet" target="_blank"><div class="tech-icon"><i class="fa-brands fa-microsoft" style="color: #5e2c9e; font-size: 40px;"></i></div></a>
+                </div>
+
+            </div>
+            <div class="project-card">
+                <img src="MUF Website.png" alt="">
+
+                <a href="https://medicaunofarma.com/"><h3>MUF Website</h3></a>
+                <p>MedicaUnoFarma is a user-friendly pharmaceutical e-commerce platform designed to streamline the online purchase of medicines and healthcare products. The website provides a seamless shopping experience, enabling customers to browse, compare, and order pharmaceutical products with ease.</p>
+                
+                <div class="tech-stack">
+                <span>Technology Used:</span>
+                <a href="https://wordpress.com/" target="_blank"><div class="tech-icon"><i class="fa-brands fa-wordpress" style="color: #21759b; font-size: 40px;"></i></div>
+                </div></a>
+                
+            
+            </div>
+            <div class="project-card">
+                <img src="AeroVest.png" alt="">
+
+                <h3>AeroVest</h3>
+                <p>AeroVest is an innovative wearable technology designed to monitor heat stress and provide automated cooling for individuals working in high-temperature environments. It integrates real-time physiological and environmental data monitoring with an automatic fan system to help prevent heat-related illnesses.</p>
+                
+                <div class="tech-stack">
+                    <span>Technology Used:</span>
+                    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank"> <div class="tech-icon"><i class="fa-solid fa-c" style="color: #5e2c9e; font-size: 40px;"></i></div></a>
+                
+                    <a href="https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet" target="_blank"><div class="tech-icon"><i class="fa-brands fa-microsoft" style="color: #5e2c9e; font-size: 40px;"></i></div></a>
+                 
+                    <a href="https://www.arduino.cc/" target="_blank"><div class="tech-icon"><i class="fa-solid fa-infinity" style="color: #00a3ad; font-size: 40px;"></i></div></a>
+               
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="I-Library.png" alt="">
+
+                <h3>I-Library management system</h3>
+                <p>The Self-Service School Library Management System is a modern library solution designed to streamline book borrowing, returning, and inventory management. Utilizing RFID technology, GSM modules, and a centralized database, the system enhances efficiency, reduces administrative workload, and improves user experience for National University students and staff.</p>
+                
+                <div class="tech-stack">
+                    <span>Technology Used:</span>
+                    <a href="https://learn.microsoft.com/en-us/sql/sql-server/what-is-sql-server?view=sql-server-ver16" target="_blank"> <div class="tech-icon"><i class="fa-solid fa-database" style="color: #003b6f; font-size: 40px;" ></i></div></a>
+                    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank"> <div class="tech-icon"><i class="fa-solid fa-c" style="color: #5e2c9e; font-size: 40px;"></i></div></a>
+                    <a href="https://www.arduino.cc/" target="_blank"><div class="tech-icon"><i class="fa-solid fa-infinity" style="color: #00a3ad; font-size: 40px;"></i></div></a>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <img src="Smart Plant Watering.png" alt="">
+
+                <h3>Smart Plant Watering System</h3>
+                <p>The Automatic Plant Watering System is a smart irrigation solution designed to optimize plant care by automating watering based on soil moisture levels. The system integrates Arduino, soil moisture sensors, a water pump, and a Bluetooth module, allowing users to manage watering through a Windows or mobile application. This project aims to conserve water, prevent overwatering, and ensure plant health even when owners are away.</p>
+                
+                <div class="tech-stack">
+                    <span>Technology Used:</span>
+                    <a href="https://appinventor.mit.edu/about-us" target="_blank"> <div class="tech-icon"><i class="fa-brands fa-android" style="color: #04e707; font-size: 40px;"></i></div></a>
+                    <a href="https://www.arduino.cc/" target="_blank"><div class="tech-icon"><i class="fa-solid fa-infinity" style="color: #00a3ad; font-size: 40px;"></i></div></a>
+                </div>
+                
+            </div>
+            <div class="project-card">
+                <img src="Bluetooth rc.png" alt="">
+
+                <h3>Bluetooth Remote Car</h3>
+                <p>The Bluetooth Remote-Controlled Car is a compact, wireless vehicle that can be operated via a mobile application. It is designed for automation, robotics learning, and remote navigation experiments. The car utilizes Bluetooth communication to receive commands and control movement, making it an excellent project for IoT, embedded systems, and robotics.</p>
+                <div class="tech-stack">
+                    <span>Technology Used:</span>
+                    <a href="https://appinventor.mit.edu/about-us" target="_blank"> <div class="tech-icon"><i class="fa-brands fa-android" style="color: #04e707; font-size: 40px;"></i></div></a>
+                    <a href="https://www.arduino.cc/" target="_blank"><div class="tech-icon"><i class="fa-solid fa-infinity" style="color: #00a3ad; font-size: 40px;"></i></div></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="Trash Segregator.jpg" alt="">
+
+                <h3>Trash Segregator</h3>
+                <p>The Automated Trash Segregator is a smart waste management system that classifies trash into biodegradable, non-biodegradable, and metallic waste. Using sensors and a microcontroller, the system identifies waste types and sorts them into respective bins, promoting efficient recycling and proper waste disposal.</p>
+                 <div class="tech-stack">
+                    <span>Technology Used:</span>
+                    <a href="https://appinventor.mit.edu/about-us" target="_blank"> <div class="tech-icon"><i class="fa-brands fa-android" style="color: #04e707; font-size: 40px;"></i></div></a>
+                    <a href="https://www.arduino.cc/" target="_blank"><div class="tech-icon"><i class="fa-solid fa-infinity" style="color: #00a3ad; font-size: 40px;"></i></div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+       <h2 class="heading">Contact <span>Me</span></h2>
+    
+       <form action="#">
+
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full name">
+                    <input type="email" placeholder="Email">
+                </div>
+               
+            
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id=""
+                placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message"class="btn">
+             </div>
+       </form>
+    </section>
+   
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/Linayaoo"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/argee-linayao/"><i class="bx bxl-linkedin-square"></i></a>
+            
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contacts</a>
+            </li>
+        </ul>
+        <p class="copyright">@ Argee Linayao | All Rights Reserved</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
